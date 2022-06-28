@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <div className="app-container">
      <TodoInput todo={setTodo} todoValue={toDo}/>
-     <button onClick={addTodo} >click</button>
+     <button onClick={addTodo} >click</button>  
      <TodoList todoArray={todoArray} setTodoArray={setTodoArray}/>
       </div>
     </div>
