@@ -10,7 +10,7 @@ function App() {
     const addTodo = () =>{
 
       if(toDo){
-        setTodoArray(prevState=>[...prevState,toDo])
+        setTodoArray(prevState=>[...prevState,{toDo:toDo}])
         setTodo("")
       }
     }

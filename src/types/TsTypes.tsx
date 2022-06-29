@@ -1,1 +1,3 @@
-export type ItodoArray = string
+export interface ItodoArray {
+    toDo:string
+} 
